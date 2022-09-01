@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: 24px;
     box-sizing: border-box;
 }
 .clearfix::after{
@@ -10,8 +9,50 @@
     display: table;
     clear:both
 }
+/* body  */
 body{
     font-family: Fredoka;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+}
+/*  */
+/* header e p centrati  */
+header, p{
+    text-align: center;
+}
+/* header */
+header{
+    font-size: 25px;
+    color: rgb(233, 77, 129);
+    margin: 50px 0;
+}
+/*  */
+/* main  */
+section>p{
+    font-size: 20px;
+    margin: 50px 0;
+}
+/* card team  */
+div.card{
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+div.card img{
+    float: left;
+    width: 120px;
+    padding-right: 20px;
+}
+div.card h2, h3, h4{
+    margin: 10px;
+}
+div.card h2{
+    font-size: 25px;
+}
+div.card h3{
+}
+div.card h4{
+    color: rgb(39, 166, 224);
 }
