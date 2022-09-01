@@ -10,3 +10,8 @@
     display: table;
     clear:both
 }
+body{
+    font-family: Fredoka;
+    width: 80%;
+    margin: 0 auto;
+}
