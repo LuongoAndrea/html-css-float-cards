@@ -1,4 +1,4 @@
-/* Fredoka */
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@
 }
 /* body  */
 body{
-    font-family: Fredoka;
+    font-family: Fredoka, sans-serif;
     width: 70%;
     margin: 0 auto;
 }
