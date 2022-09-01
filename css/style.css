@@ -26,6 +26,9 @@ header{
     color: rgb(233, 77, 129);
     margin: 50px 0;
 }
+h1{
+    box-shadow: #949494;
+}
 /*  */
 /* main  */
 section>p{
@@ -52,16 +55,22 @@ div.card img{
     width: 150px;
     padding-right: 20px;
 }
-div.card h2, h3, h4{
-    margin: 10px;
+div.card section{
+    height: calc(100% / 3);
+    display: block;
 }
 div.card h2{
     font-size: 25px;
     text-transform: uppercase;
 }
-div.card h3{
+div.card section:nth-child(3){
     text-transform: capitalize;
+    font-size: 18px;
 }
-div.card h4{
+div.card section:nth-child(4){
     color: rgb(39, 166, 224);
+    font-size: 18px;
+}
+div.card section{
+    padding-top: 10px;
 }
