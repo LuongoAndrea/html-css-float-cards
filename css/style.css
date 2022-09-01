@@ -37,12 +37,19 @@ div.card{
     background-color: black;
     color: white;
     border: 1px solid;
-    padding: 10px;
+    /* padding: 10px; */
     box-shadow: 5px 10px 18px #888888;
+    width: calc((100% - 80px) / 3);
+    float: left;
+    margin-bottom: 50px;
 }
+div.card:nth-of-type(3n+2){
+    margin: 0 40px 0 40px;
+}
+
 div.card img{
     float: left;
-    width: 120px;
+    width: 150px;
     padding-right: 20px;
 }
 div.card h2, h3, h4{
@@ -50,8 +57,10 @@ div.card h2, h3, h4{
 }
 div.card h2{
     font-size: 25px;
+    text-transform: uppercase;
 }
 div.card h3{
+    text-transform: capitalize;
 }
 div.card h4{
     color: rgb(39, 166, 224);
