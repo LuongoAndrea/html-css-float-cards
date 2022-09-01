@@ -1,1 +1,12 @@
-Fredoka
+/* Fredoka */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both
+}
